@@ -1,0 +1,101 @@
+material_id	material_name	category	stock_with_unit	min_stock_level	last_updated	daily_usage
+1	Fabric Roll	Fabric	450 meters	100	2024-01-15	25
+2	Spring Coils	Springs	1200 pieces	500	2024-01-15	80
+3	Memory Foam	Foam	800 kg	200	2024-01-15	45
+4	Latex Foam	Foam	350 kg	100	2024-01-15	20
+5	Pocket Springs	Springs	950 pieces	400	2024-01-15	60
+6	Bonding Adhesive	Chemical	150 liters	50	2024-01-15	8
+7	Thread Cones	Sewing	85 pieces	20	2024-01-15	5
+8	Edge Support	Frame	320 meters	100	2024-01-15	15
+9	Quilt Padding	Padding	600 sqm	200	2024-01-15	30
+10	Zippers	Hardware	450 pieces	100	2024-01-15	12
+11	Cover Fabric	Fabric	280 meters	150	2024-01-12	18
+12	Coil Springs	Springs	1100 pieces	600	2024-01-14	75
+13	Polyurethane Foam	Foam	420 kg	180	2024-01-13	35
+14	Border Tape	Frame	190 meters	80	2024-01-15	12
+15	Staples	Hardware	3200 pieces	1000	2024-01-11	150
+16	Glue Gun Sticks	Chemical	65 pieces	30	2024-01-15	8
+17	Quilting Thread	Sewing	45 cones	15	2024-01-14	4
+18	Mattress Handles	Hardware	180 pieces	50	2024-01-15	10
+19	Fire Barrier	Safety	320 sqm	100	2024-01-13	25
+20	Packaging Plastic	Packaging	550 meters	200	2024-01-15	40
+21	Coil Insulators	Springs	680 pieces	300	2024-01-12	45
+22	Foam Adhesive	Chemical	95 liters	40	2024-01-15	12
+23	Quilting Pins	Sewing	220 pieces	100	2024-01-14	15
+24	Edge Binding	Frame	410 meters	150	2024-01-11	28
+25	Label Tags	Packaging	1200 pieces	500	2024-01-15	80
+26	Spring Connectors	Springs	890 pieces	400	2024-01-13	65
+27	Fabric Scissors	Tools	25 pieces	10	2024-01-15	2
+28	Foam Cutting Wire	Tools	18 pieces	8	2024-01-14	1
+29	Quilting Needles	Sewing	180 pieces	50	2024-01-15	12
+30	Staple Remover	Tools	15 pieces	5	2024-01-12	1
+31	Coil Tying Wire	Springs	520 meters	200	2024-01-15	35
+32	Foam Sealer	Chemical	75 liters	30	2024-01-13	10
+33	Fabric Marker	Tools	45 pieces	20	2024-01-15	5
+34	Spring Alignment Tool	Tools	12 pieces	5	2024-01-14	1
+35	Quilting Hoop	Tools	8 pieces	3	2024-01-11	0
+36	Edge Stiffener	Frame	290 meters	100	2024-01-15	20
+37	Coil Spring Covers	Springs	720 pieces	300	2024-01-12	48
+38	Foam Density Tester	Tools	3 pieces	1	2024-01-15	0
+39	Thread Stand	Tools	18 pieces	8	2024-01-13	2
+40	Fabric Cutter Blades	Tools	65 pieces	25	2024-01-15	8
+41	Spring Coiling Tool	Tools	9 pieces	4	2024-01-14	1
+42	Foam Compression Roller	Tools	7 pieces	3	2024-01-15	0
+43	Quilting Frame	Tools	5 pieces	2	2024-01-12	0
+44	Edge Finisher	Tools	14 pieces	6	2024-01-15	2
+45	Coil Spring Template	Tools	11 pieces	5	2024-01-13	1
+46	Foam Spray Adhesive	Chemical	110 liters	50	2024-01-15	15
+47	Fabric Measuring Tape	Tools	22 pieces	10	2024-01-14	3
+48	Spring Testing Weights	Tools	8 pieces	3	2024-01-15	0
+49	Quilting Bobbins	Sewing	95 pieces	40	2024-01-11	12
+50	Edge Trimmer	Tools	16 pieces	7	2024-01-15	2
+51	Mattress Ticking	Fabric	380 meters	120	2024-01-14	22
+52	Bonnel Springs	Springs	1350 pieces	700	2024-01-15	95
+53	HR Foam	Foam	580 kg	250	2024-01-13	42
+54	Spray Glue	Chemical	85 liters	35	2024-01-15	11
+55	Upholstery Thread	Sewing	75 cones	25	2024-01-12	8
+56	Corner Guards	Frame	165 pieces	80	2024-01-15	14
+57	Velcro Strips	Hardware	320 pieces	150	2024-01-14	25
+58	Insulation Fabric	Safety	280 sqm	120	2024-01-15	21
+59	Cardboard Boxes	Packaging	420 pieces	200	2024-01-13	35
+60	Fabric Weights	Tools	28 pieces	12	2024-01-15	3
+61	Spring Clamps	Springs	580 pieces	250	2024-01-11	38
+62	Foam Leveler	Chemical	65 liters	28	2024-01-15	9
+63	Sewing Machine Oil	Sewing	12 liters	5	2024-01-14	1
+64	Frame Connectors	Frame	195 pieces	90	2024-01-15	16
+65	Screw Pack	Hardware	1850 pieces	800	2024-01-12	120
+66	Safety Goggles	Safety	45 pieces	20	2024-01-15	4
+67	Bubble Wrap	Packaging	680 meters	300	2024-01-13	52
+68	Fabric Shears	Tools	19 pieces	8	2024-01-15	2
+69	Spring Calibrator	Tools	6 pieces	2	2024-01-14	0
+70	Foam Cutter	Tools	11 pieces	5	2024-01-15	1
+71	Quilting Ruler	Tools	14 pieces	6	2024-01-11	1
+72	Edge Sander	Tools	8 pieces	3	2024-01-15	0
+73	Coil Straightener	Tools	7 pieces	3	2024-01-13	0
+74	Fabric Press	Tools	4 pieces	2	2024-01-15	0
+75	Spring Tension Gauge	Tools	9 pieces	4	2024-01-12	1
+76	Foam Scraps	Foam	220 kg	100	2024-01-15	18
+77	Thread Cutter	Sewing	32 pieces	15	2024-01-14	4
+78	Frame Brackets	Frame	145 pieces	70	2024-01-15	12
+79	Nail Pack	Hardware	2200 pieces	1000	2024-01-13	150
+80	Dust Masks	Safety	180 pieces	80	2024-01-15	15
+81	Packaging Tape	Packaging	85 rolls	40	2024-01-11	8
+82	Measuring Wheel	Tools	5 pieces	2	2024-01-15	0
+83	Spring Lubricant	Chemical	45 liters	20	2024-01-14	6
+84	Bobbin Cases	Sewing	38 pieces	18	2024-01-15	5
+85	Corner Braces	Frame	125 pieces	60	2024-01-12	10
+86	Wrench Set	Tools	12 pieces	6	2024-01-15	1
+87	Foam Remover	Chemical	35 liters	15	2024-01-13	5
+88	Thread Spool	Sewing	68 pieces	30	2024-01-15	9
+89	Frame Paint	Frame	28 liters	12	2024-01-14	3
+90	Safety Gloves	Safety	95 pairs	40	2024-01-15	8
+91	Shipping Labels	Packaging	650 pieces	300	2024-01-11	45
+92	Digital Scale	Tools	7 pieces	3	2024-01-15	0
+93	Spring Washers	Springs	420 pieces	200	2024-01-13	28
+94	Foam Cleaner	Chemical	55 liters	25	2024-01-15	7
+95	Needle Pack	Sewing	120 pieces	50	2024-01-12	15
+96	Frame Polish	Frame	22 liters	10	2024-01-15	2
+97	Ear Protection	Safety	65 pieces	30	2024-01-14	6
+98	Packaging Strap	Packaging	380 meters	150	2024-01-15	30
+99	Laser Level	Tools	4 pieces	2	2024-01-11	0
+100	Spring Alignment Jig	Tools	8 pieces	4	2024-01-15	1
