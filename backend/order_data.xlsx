@@ -1,0 +1,11 @@
+Order_ID	Date_Received	Product_Type	Ordered_Quantity	Delivery_DueDate	Priority
+O001	2025-10-08	Gadget X	100	2025-10-13	High
+O002	2025-10-07	Widget B	10	2025-10-11	High
+O003	2025-10-05	Gadget X	25	2025-10-08	High
+O004	2025-10-09	Gadget Y	25	2025-10-14	High
+O005	2025-10-08	Component 1	100	2025-10-12	Medium
+O006	2025-10-11	Gadget X	100	2025-10-16	High
+O007	2025-10-10	Component 1	25	2025-10-15	Low
+O008	2025-10-08	Widget B	150	2025-10-10	Urgent
+O009	2025-10-12	Gadget Y	50	2025-10-13	Urgent
+O010	2025-10-10	Component 1	10	2025-10-13	Medium
