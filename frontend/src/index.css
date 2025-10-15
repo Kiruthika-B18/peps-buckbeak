@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Factory Dashboard Design System - Dark Industrial Theme */
+
+@layer base {
+  :root {
+    /* Light / White Theme */
+    --background: 0 0% 100%; /* white */
+    --foreground: 220 15% 10%; /* dark text */
+
+    /* Elevated Cards */
+    --card: 210 100% 100%; /* white */
+    --card-foreground: 220 15% 10%;
+
+    /* Popovers */
+    --popover: 210 100% 100%;
+    --popover-foreground: 220 15% 10%;
+
+    /* Primary (blue) */
+    --primary: 217 91% 54%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary Accent */
+    --secondary: 210 100% 98%;
+    --secondary-foreground: 220 15% 10%;
+
+    /* Muted Elements */
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 10% 40%;
+
+    /* Accent */
+    --accent: 188 95% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Status Colors */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 32 95% 44%;
+    --warning-foreground: 0 0% 0%;
+
+    --danger: 0 72% 51%;
+    --danger-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: 210 16% 90%;
+    --input: 210 16% 96%;
+    --ring: 217 91% 54%;
+
+    /* Border Radius */
+    --radius: 0.75rem;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 15% 10%;
+    --sidebar-primary: 217 91% 54%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 100% 98%;
+    --sidebar-accent-foreground: 220 15% 10%;
+    --sidebar-border: 210 16% 90%;
+    --sidebar-ring: 217 91% 54%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 54%) 0%, hsl(188 95% 45%) 100%);
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%) 0%, hsl(142 76% 46%) 100%);
+    --gradient-warning: linear-gradient(135deg, hsl(32 95% 44%) 0%, hsl(32 95% 54%) 100%);
+    --gradient-danger: linear-gradient(135deg, hsl(0 72% 51%) 0%, hsl(0 72% 61%) 100%);
+
+    /* Shadows & Glows */
+    --shadow-glow: 0 0 12px hsl(217 91% 54% / 0.12);
+    --shadow-success: 0 0 12px hsl(142 76% 36% / 0.12);
+    --shadow-warning: 0 0 12px hsl(32 95% 44% / 0.12);
+    --shadow-danger: 0 0 12px hsl(0 72% 51% / 0.12);
+
+    /* Transitions */
+    --transition-smooth: all 0.2s ease-in-out;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-success {
+    background: var(--gradient-success);
+  }
+
+  .gradient-warning {
+    background: var(--gradient-warning);
+  }
+
+  .gradient-danger {
+    background: var(--gradient-danger);
+  }
+
+  .glow-primary {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .glow-success {
+    box-shadow: var(--shadow-success);
+  }
+
+  .glow-warning {
+    box-shadow: var(--shadow-warning);
+  }
+
+  .glow-danger {
+    box-shadow: var(--shadow-danger);
+  }
+
+  .card-elevated {
+    @apply bg-card border border-border rounded-xl transition-all duration-300;
+  }
+
+  .card-elevated:hover {
+    @apply border-primary/50 glow-primary;
+  }
+
+  .status-badge {
+    @apply px-3 py-1 rounded-full text-sm font-medium inline-flex items-center gap-1.5;
+  }
+
+  .metric-card {
+    @apply card-elevated p-6;
+  }
+
+  /* TV card gradients for overview */
+  .grad-attendance {
+    background: linear-gradient(90deg, #06b6d4 0%, #60a5fa 100%);
+  }
+
+  .grad-workers {
+    background: linear-gradient(135deg, #7c3aed 0%, #ec4899 100%);
+  }
+
+  .grad-predicted {
+    background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+  }
+
+  .grad-actual {
+    background: linear-gradient(135deg, #f97316 0%, #ef4444 100%);
+  }
+}
+
+
+  /* TV specific utilities */
+  .tv-card-height {
+    height: 320px; /* used by TV charts to keep consistent sizing (increased for clearer TV view) */
+  }
+
+  .tv-grid-fit {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .gradient-primary {
+    background: linear-gradient(135deg, #7c3aed 0%, #06b6d4 100%);
+  }
+
+  .gradient-success {
+    background: linear-gradient(135deg, #16a34a 0%, #86efac 100%);
+  }
+
+  .glow-primary { box-shadow: 0 6px 20px rgba(124,58,237,0.18); }
+  .glow-success { box-shadow: 0 6px 20px rgba(16,185,129,0.14); }
+
+  /* compact layout helpers for TV page to avoid vertical scrolling */
+  .tv-overview-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  /* lightweight compact helpers to shrink spacing and typography for TV screens */
+  .tv-compact {
+    padding: 0.4rem !important;
+    gap: 0.5rem !important;
+  }
+
+  .tv-small {
+    font-size: 0.85rem !important;
+  }
+
+  @media (min-width: 768px) {
+    .tv-overview-container {
+      grid-template-columns: 1fr;
+    }
+    .tv-top-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1.25rem;
+      align-items: start;
+    }
+    .tv-bottom-grid {
+      /* Make a single full-width cell; ProductionCharts will render its own two-column grid
+         which will now be able to span the full page width instead of being constrained */
+      display: block;
+      width: 100%;
+      gap: 1rem;
+    }
+  }
+
+  /* TV highlights */
+  .tv-predicted-highlight {
+    background: linear-gradient(135deg, #06b6d4 0%, #10b981 100%);
+    color: white !important;
+    box-shadow: 0 10px 30px rgba(6,182,212,0.15);
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .tv-card-highlight {
+    transform: translateY(-2px);
+    transition: transform 0.18s ease-in-out;
+  }
+
+  /* Larger chart card for TV mode - lets the recharts container stretch */
+  .tv-chart-large {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    min-height: 420px;
+  }
+
+  .tv-chart-large .recharts-wrapper {
+    height: 100% !important;
+  }
+
+  /* Clear metric styling for TV: bigger numbers, higher contrast */
+  .tv-metric-clear {
+    padding: 1rem 1.25rem;
+    border-radius: 0.8rem;
+  }
+
+  .tv-metric-clear .text-3xl { font-size: 2.25rem; }
+  .tv-metric-clear .text-4xl { font-size: 3rem; }
+
+  /* Frontend sidebar active accent */
+  .sidebar-active { position: relative; }
+  .sidebar-active::before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 6px;
+    bottom: 6px;
+    width: 4px;
+    background: linear-gradient(180deg, rgba(245,158,11,0.95), rgba(249,115,22,0.95));
+    border-radius: 4px;
+  }
+
+  /* Pressed state (dark highlight while clicking/touching an item) */
+  .sidebar-pressed {
+    background: #0f172a; /* slate-900 */
+    color: #fff !important;
+    box-shadow: 0 6px 18px rgba(2,6,23,0.24);
+  }
