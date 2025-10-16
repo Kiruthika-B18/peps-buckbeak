@@ -1,0 +1,58 @@
+{
+  "overall": {
+    "predicted_present": 95,
+    "predicted_total": 100,
+    "predicted_rate": "95.6%",
+    "date": "2025-10-11"
+  },
+  "departments": {
+    "Production": {
+      "predicted": "45/48 (95.0%)",
+      "rate": 0.95,
+      "workers": 45,
+      "total_workers": 48
+    },
+    "Quality Control": {
+      "predicted": "19/20 (95.0%)",
+      "rate": 0.95,
+      "workers": 19,
+      "total_workers": 20
+    },
+    "Maintenance": {
+      "predicted": "10/15 (70.9%)",
+      "rate": 0.7088704267468092,
+      "workers": 10,
+      "total_workers": 15
+    },
+    "Logistics": {
+      "predicted": "14/15 (95.0%)",
+      "rate": 0.95,
+      "workers": 14,
+      "total_workers": 15
+    },
+    "Administration": {
+      "predicted": "11/12 (95.0%)",
+      "rate": 0.95,
+      "workers": 11,
+      "total_workers": 12
+    }
+  },
+  "shifts": {
+    "Morning (6AM-2PM)": {
+      "workers": 64,
+      "efficiency": "88.0%",
+      "attendance_rate": "87.0%"
+    },
+    "Evening (2PM-10PM)": {
+      "workers": 49,
+      "efficiency": "80.5%",
+      "attendance_rate": "83.5%"
+    },
+    "Night (10PM-6AM)": {
+      "workers": 29,
+      "efficiency": "68.5%",
+      "attendance_rate": "65.0%"
+    }
+  },
+  "last_updated": "2025-10-16 06:58:45"
+}

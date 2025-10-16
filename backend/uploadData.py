@@ -2,7 +2,6 @@ import pandas as pd
 from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
-
 try:
 	# Load environment variables from .env
 	load_dotenv()
